@@ -19,6 +19,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -120,6 +121,16 @@ body {
 
 .buttonContainer:hover {
     filter: brightness(0.7);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media only screen and (max-width: 375px) {
